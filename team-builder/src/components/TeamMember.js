@@ -5,7 +5,7 @@ const TeamMember = props => {
   const { name, email, role } = props.memberInfo;
 
   return (
-    <div className='my-4 p-4 max-w-full border border-full rounded border-gray-900'>
+    <div className='my-4 p-4 border-full rounded border-gray-900'>
       <h2 className='name'>{name}</h2>
       <h4>{role}</h4>
       <a href={`mailto:${email}`} className='email'>
